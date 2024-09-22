@@ -1,0 +1,72 @@
+#personal{
+    color:darkblue;
+}
+#educations{
+    color:darkblue;
+}
+#skill{
+    color:darkblue;
+}
+#work{
+    color:darkblue;
+}
+#static{
+    color:yellow;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkgreen;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color:purple;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 220px;
+    border-radius: 70%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  
+  /* Button Styles */
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
